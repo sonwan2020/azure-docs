@@ -19,17 +19,17 @@ Azure Container Apps collect list of Java metrics
 | Category| Title  | Description | Metric ID |Unit  |
 |---------|---------|---------|---------|---------|
 | Java | jvm.memory.total.used | Total amount of memory used by heap or non-heap (in bytes) | JvmMemoryTotalUsed | bytes |
-| Java | jvm.memory.total.committed |  |  | bytes |
-| Java | jvm.memory.total.limit |  |  | bytes |
-| Java | jvm.memory.used |  |  | bytes |
-| Java | jvm.memory.committed |  |  | bytes |
-| Java | jvm.memory.limit |  |  | bytes |
-| Java | jvm.buffer.memory.usage |  |  | bytes |
-| Java | jvm.buffer.memory.committed |  |  | bytes |
-| Java | jvm.buffer.memory.limit |  |  | bytes |
-| Java | jvm.gc.count |  |  | n/a |
-| Java | jvm.gc.duration |  |  | seconds |
-| Java | jvm.thread.count |  |  | n/a |
+| Java | jvm.memory.total.committed | Total amount of memory guaranteed to be available for heap or non-heap (in bytes) | JvmMemoryTotalCommitted | bytes |
+| Java | jvm.memory.total.limit | Total amount of maximum obtainable memory for heap or non-heap (in bytes) | JvmMemoryTotalLimit | bytes |
+| Java | jvm.memory.used | Amount of memory used by each pool (in bytes) | JvmMemoryUsed | bytes |
+| Java | jvm.memory.committed | Amount of memory guaranteed to be available for each pool (in bytes) | JvmMemoryCommitted | bytes |
+| Java | jvm.memory.limit | Amount of maximum obtainable memory for each pool (in bytes) | JvmMemoryLimit | bytes |
+| Java | jvm.buffer.memory.usage | Amount of memory used by buffers, such as direct memory (in bytes) | JvmBufferMemoryUsage | bytes |
+| Java | jvm.buffer.memory.limit | Amount of total memory capacity of buffers (in bytes) | JvmBufferMemoryLimit | bytes |
+| Java | jvm.buffer.count | Number of buffers in the memory pool | JvmBufferCount | n/a |
+| Java | jvm.gc.count | Count of JVM garbage collection actions | JvmGcCount | n/a |
+| Java | jvm.gc.duration | Duration of JVM garbage collection actions (in seconds) | JvmGcDuration | seconds |
+| Java | jvm.thread.count | Number of executing platform threads | JvmThreadCount | n/a |
 
 ## Configure java metrics
 
