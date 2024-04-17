@@ -314,7 +314,7 @@
       - name: Automatic memory fitting
         href: java-memory-fit.md
         displayName: java
-      - name: Java Metrics
+      - name: Java metrics
         href: java-metrics.md
         displayName: java
       - name: Build environment variables
